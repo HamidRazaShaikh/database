@@ -60,7 +60,6 @@ function loadData(){
         docs.forEach(function(doc){
             var d = doc.data();
             d.id = doc.id;
-            createElements(d);
 
         })
     })
